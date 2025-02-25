@@ -33,6 +33,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import flowfit from "./flowfit.png";
+import taskwise from "./taskwise.png";
+import lifecost from "./lifecost.png";
+
 export {
   logo,
   backend,
@@ -65,4 +69,7 @@ export {
   codeforall,
   coimbra,
   java,
+  flowfit,
+  taskwise,
+  lifecost,
 };
