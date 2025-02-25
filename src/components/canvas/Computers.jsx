@@ -34,11 +34,10 @@ const ComputersCanvas = () => {
   useEffect(() => {
     // Add a listener for changes to the screen size
     const mediaQuery = window.matchMedia("(max-width: 500px)");
-    
+
     // set the initial value of isMobile state variable
     setIsMobile(mediaQuery.matches);
-    
-    
+
     // Define a callback function to handle the changes to the media query
     const handleMediaQueryChange = (event) => {
       setIsMobile(event.matches);
@@ -60,7 +59,7 @@ const ComputersCanvas = () => {
       camera={{ position: [20, 3, 5], fov: 25 }} // camera position and field of view
       gl={{ preserveDrawingBuffer: true }} // preserve canvas after unmount
     >
-      <Suspense fallback={<CanvasLoader />}>
+      <Suspense>
         <OrbitControls
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}

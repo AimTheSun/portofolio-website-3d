@@ -12,6 +12,7 @@ import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
+import java from "./tech/java.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
@@ -62,5 +63,6 @@ export {
   jobit,
   tripguide,
   codeforall,
-  coimbra
+  coimbra,
+  java,
 };
