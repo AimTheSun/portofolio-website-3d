@@ -22,6 +22,9 @@ import {
   java,
   codeforall,
   coimbra,
+  joao_miguel,
+  ricardo,
+  hugoalves,
 } from "../assets";
 export const navLinks = [
   {
@@ -135,27 +138,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Pedro’s been a friend since we were neighbors, and I’ve seen his dedication up close. From our old side projects to random jobs, he’s always one step ahead, mastering trending tech before anyone else. His work ethic is unreal.",
+    name: "João Almeida",
+    designation: "Junior Developer",
+    company: "Code For All_",
+    image: joao_miguel,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I worked with Pedro on the FlowFit app, and we won Best Technical Achievement together. He poured his heart into it - late nights, endless testing - and his skills made the difference. That prize was well-earned.",
+    name: "Hugo Alves",
+    designation: "Front End Developer",
+    company: "MC Sonae",
+    image: hugoalves,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "As a gym buddy, I’ve seen Pedro’s hustle firsthand. He’s a hard worker and a natural at connecting with people - qualities that shine through in his development projects. He’s the real deal.",
+    name: "Ricardo Cerqueira",
+    designation: "Full Stack Developer",
+    company: "Code For All_",
+    image: ricardo,
   },
 ];
 

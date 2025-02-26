@@ -37,6 +37,10 @@ import flowfit from "./flowfit.png";
 import taskwise from "./taskwise.png";
 import lifecost from "./lifecost.png";
 
+import joao_miguel from "./joao_miguel.png";
+import ricardo from "./ricardo.png";
+import hugoalves from "./hugoalves.png";
+
 export {
   logo,
   backend,
@@ -72,4 +76,7 @@ export {
   flowfit,
   taskwise,
   lifecost,
+  joao_miguel,
+  ricardo,
+  hugoalves,
 };
