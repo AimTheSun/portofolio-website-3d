@@ -12,9 +12,6 @@ import {
   nodejs,
   mongodb,
   git,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   flowfit,
   taskwise,
@@ -47,15 +44,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "JavaScript, React Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Backend Developer, Nodejs, Java",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Available for Internship/Freelance work",
     icon: creator,
   },
 ];
@@ -172,6 +169,8 @@ const projects = [
       { name: "Spring Boot", color: "green-text-gradient" },
       { name: "MySQL", color: "green-text-gradient" },
       { name: "AWS", color: "orange-text-gradient" },
+      { name: "Javascript", color: "blue-text-gradient" },
+      { name: "Node.js", color: "blue-text-gradient" },
     ],
     image: flowfit,
     source_code_link: "https://github.com/AimTheSun/flowfit-webapp",
