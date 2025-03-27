@@ -1,4 +1,5 @@
 # My 3D Developer Portfolio
+## UPDATING THIS PORTOFOLIO TO A BETTER UI
 
 ![Portfolio Screenshot](portofolio1.jpg) <!-- Replace with actual screenshot -->
 
