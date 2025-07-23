@@ -9,7 +9,7 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
-const EducationCard = ({ experience }) => {
+const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
@@ -42,7 +42,7 @@ const EducationCard = ({ experience }) => {
       <ul className="mt-5 list-disc ml-5 space-y-2">
         {experience.points.map((point, index) => (
           <li
-            key={`education-point-${index}`}
+            key={`experience-point-${index}`}
             className="text-white-100 text-[14px] pl-1 tracking-wider"
           >
             {point}
@@ -53,20 +53,22 @@ const EducationCard = ({ experience }) => {
   );
 };
 
-const Education = () => {
+const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
-          What I've learned so far
+          What I have done so far
         </p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>Education</h2>
+        <h2 className={`${styles.sectionHeadText} text-center`}>
+          Work Experience.
+        </h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
           {experiences.map((experience, index) => (
-            <EducationCard
+            <ExperienceCard
               key={`experience-${index}`}
               experience={experience}
             />
@@ -77,4 +79,4 @@ const Education = () => {
   );
 };
 
-export default SectionWrapper(Education, "education"); // Changed ID to "education"
+export default SectionWrapper(Experience, "work");

@@ -22,6 +22,9 @@ import {
   joao_miguel,
   ricardo,
   hugoalves,
+  carrent,
+  jobit,
+  tripguide,
 } from "../assets";
 export const navLinks = [
   {
@@ -29,8 +32,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "education", // Changed from "work" to "education"
-    title: "Education",
+    id: "work",
+    title: "Work Experience",
   },
   {
     id: "contact",
@@ -107,27 +110,15 @@ const technologies = [
 
 const experiences = [
   {
-    title: "14-Week Programming Bootcamp",
-    institution: "Code For All_",
-    icon: codeforall,
+    title: "Full-Stack Developer",
+    institution: "BeamWallet",
+    icon: backend,
     iconBg: "#383E56",
-    date: "2023",
+    date: "Mar 2025 - Aug 2025",
     points: [
-      "Intensive training in full-stack web development, focusing on Java, JavaScript, mySql, Spring",
-      "Completed real-world projects, enhancing problem-solving and coding skills.",
-      "Collaborated with peers to build responsive, user-friendly applications.",
-    ],
-  },
-  {
-    title: "Master in Sports Science",
-    institution: "University of Coimbra",
-    icon: coimbra,
-    iconBg: "#E6DEDD",
-    date: "2021 - 2023",
-    points: [
-      "Conducted research on biomechanics and performance optimization in sports.",
-      "Developed analytical skills through data-driven studies and presentations.",
-      "Gained a strong foundation in teamwork and project management.",
+      "Sole developer leading the migration of the company's website from WordPress to a modern React.js stack with a custom architecture and integrated CMS.",
+      "Implemented headless CMS workflows (Strapi), responsive UI components, transactional email services, and analytics tools (Google Analytics, Meta Pixel), improving site performance and user engagement.",
+      "Worked closely with the marketing team to boost the brand's online reach, resulting in measurable growth in user acquisition and site traffic.",
     ],
   },
 ];
@@ -177,30 +168,32 @@ const projects = [
     live_demo_link: "http://client-flowfit.s3-website-us-east-1.amazonaws.com/",
   },
   {
-    name: "LifeCost – Healthcare Cost Estimator",
+    name: "Forever E-commerce",
     description:
-      "A web app that estimates medical exam costs, waiting times, and available hospitals using OpenAI and Google Maps APIs. Features a responsive UI with dark/light mode. Built with React and Node.js.",
+      "Developed an e-commerce platform using the MERN stack (MongoDB, Express.js, React, Node.js) and Stripe for payments. Features include product filtering, cart management, secure checkout, and an admin dashboard for managing products and orders.",
     tags: [
       { name: "React", color: "blue-text-gradient" },
+      { name: "MongoDB", color: "green-text-gradient" },
+      { name: "Express.js", color: "green-text-gradient" },
       { name: "Node.js", color: "green-text-gradient" },
-      { name: "APIs", color: "orange-text-gradient" },
+      { name: "Stripe", color: "pink-text-gradient" },
     ],
-    image: lifecost,
-    source_code_link: "https://github.com/AimTheSun/lifecost",
-    live_demo_link: "https://lifecost.vercel.app/",
+    image: carrent,
+    source_code_link: "https://github.com/AimTheSun/ecommerce-forever",
+    live_demo_link: "https://forever-frontend-ochre-rho.vercel.app/",
   },
   {
-    name: "TaskWise – Task Management App",
+    name: "Heritage – Landing Page",
     description:
-      "A task management app built with React and TypeScript, leveraging React Hooks and drag-and-drop functionality. Enhanced understanding of TypeScript integration and component-based architecture.",
+      "Modern landing page built with React and Vite, using modern libraries for layout, cards, and typography. Clean, responsive design suitable for a startup or personal brand showcase.",
     tags: [
       { name: "React", color: "blue-text-gradient" },
-      { name: "TypeScript", color: "blue-text-gradient" },
-      { name: "Drag-and-Drop", color: "pink-text-gradient" },
+      { name: "Vite", color: "green-text-gradient" },
+      { name: "TailwindCSS", color: "pink-text-gradient" },
     ],
-    image: taskwise,
-    source_code_link: "https://github.com/AimTheSun/react-typescript-taskwise",
-    live_demo_link: "https://aimthesun.github.io/react-typescript-taskwise",
+    image: jobit,
+    source_code_link: "https://github.com/your-repo/heritage", // You can update this
+    live_demo_link: "https://heritage-swart.vercel.app",
   },
 ];
 export { services, technologies, experiences, testimonials, projects };
