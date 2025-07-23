@@ -47,14 +47,16 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         Hey there! I'm a passionate tech enthusiast and aspiring software
-        developer with significant exposure to the Web3 space, where working as
-        a community manager for NFT projects introduced me to the world of
-        programming and sparked my journey into development. Experienced in
-        problem-solving and blending technical know-how with creativity to build
-        effective solutions. Strong communication and digital community
-        management skills enhance teamwork and adaptability. Committed to
-        continuous growth, both professionally and personally, through
-        activities like gym training and running that foster resilience.
+        developer with significant exposure to web technologies and some
+        projects that introduced me to the world of programming and sparked my
+        journey into development. Experienced in problem-solving and blending
+        technical know-how with creativity to build effective solutions. Strong
+        communication and digital community management skills enhance teamwork
+        and adaptability. Committed to continuous growth, both professionally
+        and personally, through activities like gym training and running that
+        foster resilience. Let's connect! I'm eager to discuss technology, share
+        insights, and collaborate on exciting projects. Together, we can make a
+        difference in the tech world!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
