@@ -49,6 +49,18 @@ const ExperienceCard = ({ experience }) => {
           </li>
         ))}
       </ul>
+      {experience.link && (
+        <div className="mt-5">
+          <a
+            href={experience.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white bg-blue-500 hover:bg-blue-700 font-bold py-2 px-4 rounded"
+          >
+            See More
+          </a>
+        </div>
+      )}
     </VerticalTimelineElement>
   );
 };

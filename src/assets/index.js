@@ -30,6 +30,12 @@ import coimbra from "./company/coimbra.png";
 import flowfit from "./flowfit.png";
 import taskwise from "./taskwise.png";
 import lifecost from "./lifecost.png";
+import carrent from "./carrent.png";
+import jobit from "./jobit.png";
+import tripguide from "./tripguide.png";
+import heritage from "./heritageimg.png";
+import forever from "./foreverimg.png";
+import beamimg from "./beamimg.png";
 
 import joao_miguel from "./joao_miguel.png";
 import ricardo from "./ricardo.png";
@@ -66,4 +72,10 @@ export {
   joao_miguel,
   ricardo,
   hugoalves,
+  carrent,
+  jobit,
+  tripguide,
+  heritage,
+  forever,
+  beamimg,
 };

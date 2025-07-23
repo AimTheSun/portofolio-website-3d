@@ -14,17 +14,13 @@ import {
   git,
   threejs,
   flowfit,
-  taskwise,
-  lifecost,
   java,
-  codeforall,
-  coimbra,
   joao_miguel,
   ricardo,
   hugoalves,
-  carrent,
-  jobit,
-  tripguide,
+  heritage,
+  forever,
+  beamimg,
 } from "../assets";
 export const navLinks = [
   {
@@ -120,6 +116,7 @@ const experiences = [
       "Implemented headless CMS workflows (Strapi), responsive UI components, transactional email services, and analytics tools (Google Analytics, Meta Pixel), improving site performance and user engagement.",
       "Worked closely with the marketing team to boost the brand's online reach, resulting in measurable growth in user acquisition and site traffic.",
     ],
+    link: "https://beamwallet.com/",
   },
 ];
 
@@ -168,6 +165,19 @@ const projects = [
     live_demo_link: "http://client-flowfit.s3-website-us-east-1.amazonaws.com/",
   },
   {
+    name: "BeamWallet – Company Website Migration",
+    description:
+      "Led the complete migration of BeamWallet from a legacy WordPress stack to a performant, maintainable React-based web application. Owned the full software lifecycle: architecture, frontend development, integration with headless CMS (Strapi), transactional emails, and analytics (Google Analytics, Meta Pixel). Rebuilt the original design while improving responsiveness and performance. Optimized SEO and analytics to enhance online visibility and increase web traffic.",
+    tags: [
+      { name: "React", color: "blue-text-gradient" },
+      { name: "Strapi", color: "green-text-gradient" },
+      { name: "Google Analytics", color: "orange-text-gradient" },
+      { name: "Meta Pixel", color: "pink-text-gradient" },
+    ],
+    image: beamimg,
+    live_demo_link: "https://beamwallet.com/",
+  },
+  {
     name: "Forever E-commerce",
     description:
       "Developed an e-commerce platform using the MERN stack (MongoDB, Express.js, React, Node.js) and Stripe for payments. Features include product filtering, cart management, secure checkout, and an admin dashboard for managing products and orders.",
@@ -178,7 +188,7 @@ const projects = [
       { name: "Node.js", color: "green-text-gradient" },
       { name: "Stripe", color: "pink-text-gradient" },
     ],
-    image: carrent,
+    image: forever,
     source_code_link: "https://github.com/AimTheSun/ecommerce-forever",
     live_demo_link: "https://forever-frontend-ochre-rho.vercel.app/",
   },
@@ -191,7 +201,7 @@ const projects = [
       { name: "Vite", color: "green-text-gradient" },
       { name: "TailwindCSS", color: "pink-text-gradient" },
     ],
-    image: jobit,
+    image: heritage,
     source_code_link: "https://github.com/your-repo/heritage", // You can update this
     live_demo_link: "https://heritage-swart.vercel.app",
   },
